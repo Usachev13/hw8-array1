@@ -25,6 +25,22 @@ public class Main {
             System.out.print(text[i] + ",");
         }
         System.out.print(text[2]);
+        System.out.println();
+        /* task3 */
+        for (int i = 2; i > 0; i--){
+            System.out.print(numbers[i] + ",");
+        }
+        System.out.print(numbers[0]);
+        System.out.println();
+        for (int i = 2; i > 0; i--){
+            System.out.print(floatNumbers[i] + ",");
+        }
+        System.out.print(floatNumbers[0]);
+        System.out.println();
+        for (int i = 2; i > 0; i--){
+            System.out.print(text[i] + ",");
+        }
+        System.out.print(text[0]);
 
     }
 }
