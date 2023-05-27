@@ -8,7 +8,23 @@ public class Main {
         numbers[1] = 2;
         numbers[2] = 3;
         float [] floatNumbers = {1.57f, 7.654f, 9.986f};
-        String [] text = new String[4];
+        String [] text = {"one", "two", "three"};
+
+        /* task2 */
+        for (int i = 0; i < numbers.length - 1; i++){
+            System.out.print(numbers[i] + ",");
+        }
+        System.out.print(numbers[2]);
+        System.out.println();
+        for (int i = 0; i < floatNumbers.length - 1; i++){
+            System.out.print(floatNumbers[i] + ",");
+        }
+        System.out.print(floatNumbers[2]);
+        System.out.println();
+        for (int i = 0; i < text.length - 1; i++){
+            System.out.print(text[i] + ",");
+        }
+        System.out.print(text[2]);
 
     }
 }
